@@ -6,6 +6,7 @@ import '../styles/App.css';
 class App extends React.Component {
 
   handleClick(){
+    console.log("rendered");
     this.setState({count: this.state.count+1})
   }
   constructor(props){
